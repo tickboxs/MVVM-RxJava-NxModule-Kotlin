@@ -1,0 +1,11 @@
+include ':Order'        // 订单模块
+include ':Cart'         // 购物车模块
+include ':Item'         // 商品模块
+include ':Message'      // 消息模块
+include ':Payment'      // 支付莫苦熬
+include ':UserCenter'   // 用户模块
+include ':Provider'     // 提供者模块 是Base模块和业务模块的桥梁
+include ':Base'         // 基础模块 提供基础功能和三方模块
+include ':App'          // 壳模块 也包含一些UI
+
+rootProject.name = "Ecommerce"  // 根项目
